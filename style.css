@@ -1,0 +1,230 @@
+body{
+background-color: #00d66b;
+}
+
+h1, h2, h3, h4, h6{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 1.5em;
+  font-family:"Nexa_boldimport";
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+h3, h4, h6 {
+  color: white;
+  font-family: "Nexaimport";
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+  text-align: center;
+  font-size: 1em;
+}
+
+.adventuretime{
+  float: left;
+  padding-right: 1em;
+}
+
+h5{
+  padding-top: 1em;
+}
+
+h5, p{
+  color: white;
+  float right;
+  max-width: 40em;
+  font-family: "Nexaimport";
+  font-size: 0.9em;
+}
+
+h3, h4, h5, h6{
+  color: #2d2d9f;
+}
+
+p{
+  color: black;
+}
+
+span{
+  position: relative;
+}
+
+.tick{
+  width: 1.3em;
+  float: right;
+  padding-right: 5%;
+  height: auto;
+  display: inline-block;
+}
+
+article{
+  width: 100vw;
+}
+
+section{
+  width: 100%;
+  border: none;
+  float: left;
+  background-color: #f3e5d8;
+  margin-top: 0;
+}
+
+.logo{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+    margin-top: 2em;
+    margin-bottom:0;
+    border-top: 2px solid #ec4966;
+    border-radius: 3em;
+    width: 70%;
+    max-width: 25em;
+}
+
+article {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+div {
+    flex: 0 0 auto;
+}
+
+.aanbevolen {
+    width: 100%;
+    max-width: 25em;
+    float: left;
+    margin-bottom: 1em;
+    margin-right: 0;
+}
+
+.scroll2 {
+  display: flex;
+  float: left;
+  padding-left: 2em;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  height: 10em;
+  width: 10em;
+  background-color: #f3e5d8;
+}
+
+.genrebar {
+  width: 10em;
+  height: auto;
+}
+
+.genre2{
+  width:10em;
+  height:10em;
+}
+
+.scroll3 {
+  display: flex;
+  float: right;
+  padding-right: 2em;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  height: 10em;
+  width: 10em;
+  background-color: #f3e5d8;
+}
+
+.genrebar3 {
+  width: 10em;
+  height: auto;
+}
+
+.genre3{
+  width:10em;
+  height:10em;
+}
+
+li{
+  list-style-type: none;
+  padding-bottom: 6em;
+}
+
+.genre{
+  display:block;
+  margin: 0 auto;
+}
+
+.filter{
+  margin: 0 auto;
+      text-align: center;
+  padding-bottom: 3em;
+}
+
+.keuze {
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  background-color: #ec4966;
+  font-family: "Nexaimport";
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 2em;
+}
+
+.keuze:hover {
+  background-color: #cf3d57;
+}
+
+.keuze.active {
+  background-color: #cf3d57;
+  color: white;
+}
+
+input[type=text] {
+    display: block;
+    border-radius: 2em;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1em;
+    width: 30%;
+    height: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 90%;
+}
+
+footer{
+  display:block;
+   width: 100%;
+   background-color: white;
+   margin-top: 2em;
+   color: white;
+   text-align: center;
+}
+
+.social{
+  width: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left:0.5em;
+  padding-right:0.5em;
+}
+
+@font-face {
+  font-family: Nexaimport;
+  src:url("Nexa.otf");
+}
+
+@font-face {
+  font-family: Nexa_boldimport;
+  src:url("Nexa_bold.otf");
+}
